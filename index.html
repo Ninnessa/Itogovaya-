@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Итоговая работа Колманович Н.В.</title>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a href="#" class="logo">ТурКлуб<span>АЛГА</span></a>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#" class="nav__link">Главная</a></li>
+                        <li class="nav__item"><a href="#menu" class="nav__link">Меню</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">О нас</a></li>
+                        <li class="nav__item"><a href="#reviews" class="nav__link">Отзывы</a></li>
+                        <li class="nav__item"><a href="#contacts" class="nav__link">Контакты</a></li>
+                    </ul>
+                </nav>
+                <button class="menu-toggle" aria-label="Меню">
+                    <span class="menu-toggle__line"></span>
+                    <span class="menu-toggle__line"></span>
+                    <span class="menu-toggle__line"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="hero">
+            <div class="container">
+                <h1 class="hero__title">Туристический Клуб АЛГА</h1>
+                <p class="hero__subtitle">Вытащим из обыденности! Приключения найдем или организуем сами</p>
+                <div class="hero__buttons">
+                    <a href="#menu" class="btn btn--primary">Наши приключения</a>
+                    <a href="#contacts" class="btn btn--outline">Связаться с нами</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <div class="about__inner">
+                    <div class="about__image">
+                        <img src="/images/About.jpg" alt="">
+                    </div>
+                    <div class="about__content">
+                        <h2 class="section-title">О нашем клубе</h2>
+                        <p class="about__text">Всем привет! Мы Данил и Нина. Мы очень любим приключения и умеем, знаем, практикуем как это организовать. Предлагаем Вам приключения по Красноярскому краю, Хакассии и не только</p>
+                        <p class="about__text">Главная наша специализация - Кутурчинское Белогорье, покажем его Вам с необычных сторон и отведем в места, где никто не ходит. В походах мы:</p>
+                        <ul class="about__features">
+                            <li class="feature-item">
+                                <i class="fa-solid fa-person-hiking"></i> &nbsp;
+                                <span>Развиваем нейропластичность</span>
+                            </li>
+                            <li class="feature-item">
+                                <i class="fa-solid fa-person-hiking"></i> &nbsp;
+                                <span>Улучшаем трудоспособность</span>
+                            </li>
+                            <li class="feature-item">
+                                <i class="fa-solid fa-person-hiking"></i> &nbsp;
+                                <span>Развиваем выносливость</span>
+                            </li>
+                            <li class="feature-item">
+                                <i class="fa-solid fa-person-hiking"></i> &nbsp;
+                                <span> Улучшаем когнитивные способности </span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="menu" class="menu">
+            <div class="container">
+                <h2 class="section-title">Приключения</h2>
+                <div class="menu__content active" id="coffee">
+                    <div class="menu__grid">
+                        <div class="menu-item">
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Походы Выходного Дня</h3>
+                                <span class="menu-item__price">от 500р</span>
+                            </div>
+                            <p class="menu-item__description">Поход одним днем</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Походы с выездом</h3>
+                                <span class="menu-item__price">от 1 500р</span>
+                            </div>
+                            <p class="menu-item__description">Выезд в пригород, с ночевкой в палатках или на базе, на выходные</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Длительные походы</h3>
+                                <span class="menu-item__price">от 10 000р</span>
+                            </div>
+                            <p class="menu-item__description">Походы с рюкзаком на неделю и более</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Походы с пикником</h3>
+                                <span class="menu-item__price">от 1 500р</span>
+                            </div>
+                            <p class="menu-item__description">Поход с костровой едой</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Зимние походы</h3>
+                                <span class="menu-item__price">от 2 000р</span>
+                            </div>
+                            <p class="menu-item__description">Поход на снегоступах</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Индивидуальные походы</h3>
+                                <span class="menu-item__price">по договор.</span>
+                            </div>
+                            <p class="menu-item__description">Любой поход по вашему желанию, в любую дату и место</p>
+                        </div>
+                    
+                    
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="reviews" class="reviews">
+            <div class="container">
+                <h2 class="section-title">Отзывы</h2>
+                <div class="reviews__slider">
+                    <div class="review">
+                        <div class="review__rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="review__text">Ребята, спасибо, всем вам за это приключение. За поддержку, участие и прекрасную компанию. Нина и Данил - вы волшебники, вы исполняете мечты</p>
+                        <div class="review__author">
+                            <img src="images/Ludi/Maria.jpg" alt=""
+                                class="review__photo">
+                            <span class="review__name">Мария</span>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <div class="review__rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="review__text">Как же приятно прогуливаясь по старым тропам, испытывать новые чувства! 🤗
+Погода, как наша жизнь, и извилистая сосна, как подтверждение, как бы тебя не скрутило, стой и приноси счастье мимо идущим, при этом сама, остается величественной! 🌳
+Прекрасный поход! Великолепная компания! 😍 Почти с легкостью забежали на гору, 🗻залезли на все, что хотелось и не мечталось! 🫶🏻 и все это под чутким руководством Данила и Нины! 🤗 Спасибо 🤗 что с Вами все преодолевается! 😍</p>
+                        <div class="review__author">
+                            <img src="images/Ludi/olga.jpg" alt=""
+                                class="review__photo">
+                            <span class="review__name">Ольга</span>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <div class="review__rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="review__text">Очередной чудесный поход с клубом Алга. Спасибо Нина и Данил за прекрасную воскресную прогулку. В каждом походе с Алгой преобретаю новый опыт. В этом наконец-то научился переодеваться. Зашёл на Вершину почти сухой.  Погода отличная снежок, ветерок, всё как я люблю.  Красивенько и эпичненько. Чуток не хватило, заехали на обратном пути на видовку с качелькой, забежали в горку покачались и довольные поехали домой. С нетерпением жду следующих эпичных походов 😊</p>
+                        <div class="review__author">
+                            <img src="images/Ludi/alex.jpg" alt=""
+                                class="review__photo">
+                            <span class="review__name">Александр</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacts" class="contacts">
+            <div class="container">
+                <div class="contacts__inner">
+                    <div class="contacts__info">
+                        <h2 class="section-title">Контакты</h2>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt contact-icon"></i>
+                            <span>г. Красноярск, место сбора ТРЦ Планета</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone contact-icon"></i>
+                            <span>+7(983)207-97-98</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope contact-icon"></i>
+                            <span>ninnessa@yandex.ru</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock contact-icon"></i>
+                            <span>c 9-00 до 21-00, в выходные на маршрутах</span>
+                        </div>
+                        <div class="social-links">
+                            <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-link" aria-label="Telegram"><i
+                                    class="fab fa-telegram-plane"></i></a>
+                        </div>
+                    </div>
+                    <div class="contacts__map">
+                            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A828ad887391b2f0af027f0606b626d5ab495e614969e1ab6e63fbad1a006c345&amp;source=constructor" width="500" height="400" frameborder="0"></iframe>
+                            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__logo">
+                    <a href="#" class="logo">ТурКлуб<span>АЛГА</span></a>
+                    <p class="footer__text">Вытащим из обыденности! Приключения найдем или организуем сами</p>
+                </div>
+                <div class="footer__nav">
+                    <h3 class="footer__title">Навигация</h3>
+                    <ul class="footer__list">
+                        <li><a href="#" class="footer__link">Главная</a></li>
+                        <li><a href="#menu" class="footer__link">Меню</a></li>
+                        <li><a href="#about" class="footer__link">О нас</a></li>
+                        <li><a href="#reviews" class="footer__link">Отзывы</a></li>
+                        <li><a href="#contacts" class="footer__link">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer__subscribe">
+                    <h3 class="footer__title">Подписка</h3>
+                    <p class="footer__text">Подпишитесь на наши новости и акции</p>
+                    <form class="subscribe-form">
+                        <input type="email" placeholder="Ваш email" class="subscribe-input">
+                        <button type="submit" class="subscribe-btn"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p class="footer__copyright">© Copyright 2025. Все права защищены</p>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
